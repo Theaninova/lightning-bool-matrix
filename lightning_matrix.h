@@ -105,9 +105,9 @@ static inline unsigned long long rolq(unsigned long long var, unsigned short amo
 #define mat_pos(x, y) matrix_position(x, y)
 
 // this is to calculate positions at runtime
-static unsigned short[8][8] matrix_positions =  {
-    {00, 01, 02, 03, 04, 05, 06, 16},
-    {54, 07, 08, 09, 10, 11, 23, 17},
+static unsigned short matrix_positions[8][8] = {
+    { 0,  1,  2,  3,  4,  5,  6, 16},
+    {54,  7,  8,  9, 10, 11, 23, 17},
     {53, 59, 12, 13, 14, 28, 24, 18},
     {52, 58, 62, 15, 31, 29, 25, 19},
     {51, 57, 61, 63, 47, 30, 26, 20},

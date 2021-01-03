@@ -6,6 +6,8 @@ This is for a very specific purpose. Specifically, it can
 * rotate an 8x8 boolean matrix in *one* x86_64 operation
 * compare two 8x8 boolean matrices in *one* x86_64 operation
 
+Parts of the header file are [generated](https://github.com/wulkanat/lightning-bool-matrix-gen)
+
 ## Matrix layout
 
 The matrix is saved in a single 64 bit variable. The positions are laid out
